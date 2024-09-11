@@ -1,0 +1,210 @@
+@font-face { font-family: Roundscript; src: url('font/SplatoonRoundFinal.ttf'); }
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+head {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  /* overflow-x: hidden; */
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+/* roundscript language font */
+
+.roundscript {
+  font-family: Roundscript;
+}
+
+/* Info text formatting */
+
+.loadingInfoText {
+  margin: 8px;
+  display: block;
+}
+
+/* Top bar stuff */
+
+#homepageheader {
+  max-width: none;
+  vertical-align: top;
+  display: inline-block;
+  background-color: rgba(128,128,128,0.5);
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 100vw;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 3px solid black;
+  position: sticky;
+  top: 0;
+}
+
+#piratelogoheader {
+  /* display: flex; */
+  margin: 10px;
+  /* margin-right: auto; */
+  width: 5em;
+  text-align: left;
+  float: left;
+}
+
+#homeheadertext {
+  text-align: center;
+  vertical-align: center;
+  display: absolute;
+  width: 20em;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+#agnaheadertext {
+  text-align: center;
+  vertical-align: center;
+  display: absolute;
+  width: 15em;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+/* Homepage buttons */
+
+.buttonlinks {
+  text-decoration: none;
+}
+
+.buttondivs {
+  margin: auto;
+  padding: 10px;
+  width: 300px;
+}
+
+#agnabuttondiv { /* Button is so large it needs its own id :skull: */
+  margin: auto;
+  padding: 10px;
+  width: 400px;
+}
+
+#posbutton {
+  width: 200px;
+  height: 25%;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #5865F2;
+  border: 3px solid darkblue;
+}
+
+#agnabutton {
+  width: 400px;
+  height: 25%;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: lightgreen;
+  border: 3px solid darkgreen;
+  display: block;
+}
+
+#whoisbutton {
+  width: 300px;
+  height: 25%;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: rgb(254, 241, 220);
+}
+
+#piratelogowhois {
+  width: 1em;
+}
+
+#discordlogo {
+  width: 1em;
+}
+
+#agnabrowserlogo {
+  width: 1em;
+}
+
+.buttontext {
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  float: none;
+}
+
+/* Theme maker buttons */
+
+#compilerbutton {
+  width: 300px;
+  height: 25%;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: lightskyblue;
+}
+
+#cssuploadbutton {
+  width: 300px;
+  height: 25%;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 3px solid black;
+  background-color: lightskyblue;
+}
+
+#csslogo {
+  
+}
+
+/* Individual page formatting */
+
+#agnazippage {
+  /* overflow-x: hidden; */
+  /* overflow-y: scroll; */
+  padding-bottom: 8px;
+}
+
+#agnazipinfo {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+/* Screen size check */
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  
+}
