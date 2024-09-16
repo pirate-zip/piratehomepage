@@ -1,0 +1,95 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: Arial;
+  padding: 0px;
+  margin: 0px;
+}
+
+head {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+/*#title {
+  text-align: center;
+  
+}*/
+
+#firstbutton {
+  text-align: center;
+  /*position: absolute;*/
+  top: 50%;
+  /* transform: translate(-50%, -50%); */
+  left: 50%;
+  margin: auto;
+  height: 50px;
+  width: 200px;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  transform: translateY(10%);
+}
+
+#abovebuttontext {
+  text-align: center;
+  vertical-align: center;
+  margin: auto;
+  color: red;
+  transform: translateY(-10%);
+  /* background-color: white; */
+}
+
+#middlediv {
+  position: absolute;
+  vertical-align: center;
+  text-align: center;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+/* Header stuff */
+
+#homepageheader {
+  max-width: none;
+  vertical-align: top;
+  display: inline-block;
+  background-color: rgba(128,128,128,0.5);
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 100vw;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  border-bottom: 3px solid black;
+  position: sticky;
+  top: 0;
+}
+
+#piratelogoheader {
+  /* display: flex; */
+  margin: 10px;
+  /* margin-right: auto; */
+  width: 5em;
+  text-align: left;
+  float: left;
+}
+
+#homeheadertext {
+  text-align: center;
+  vertical-align: center;
+  display: absolute;
+  width: 20em;
+  height: 50px;
+  margin: auto;
+  margin-top: 25px;
+}
